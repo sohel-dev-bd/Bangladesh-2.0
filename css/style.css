@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #f5f5f5;
+}
+ .font-Fira-Sans{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+/* common class */
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+header{
+    margin: 24px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+.my-btn{
+    padding: 10px;
+    border-radius: 8px;
+    color: #006A50;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid#006A50;
+    background-color: white;
+   
+}
+
+/* hero styling */
+.hero-parent{
+    display: flex;
+    justify-content: space-around;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    align-items: center;
+    padding: 70px;
+    margin: 20px auto;
+    gap: 64px;
+}
+.hero-parent h2{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+.hero-parent p{
+    font-size: 42px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin: 16px;
+}
+.hero-parent .my-btn{
+    background-color: #006A50;
+    color: white;
+    padding: 12px 22px;
+}
+/* pillar section styling */
+.Pillars-of-Bangladesh-parents{
+    margin: 80px auto;
+}
+
+.pillar-section-title{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.pillar-card-parents{
+    display: flex;
+    gap: 24px;
+    margin: 30px auto;
+}
+
+.pillar-card{
+    background-color: #ffffff;
+    border-radius: 16px;
+    border: 2px ;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.pillar-card img{
+    width: 64px;
+    height: 64px;
+}
+
+.pillar-card{
+    color: #565656;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* vision section styling */
+.The-Vision-of-Future{
+    margin: 80px auto;
+}
+
+.vision-parents{
+    display: flex;
+    margin: 30px auto;
+    gap: 22px;
+}
+
+.vision-card img{
+    height: 64px;
+    width: 64px;
+}
+.vision-h2{
+    font-size: 40px;
+    color: #0E0E0E;
+    font-weight: bold;
+}
+.vision-p{
+    font-size: 14px;
+    list-style: 24px;
+    color: #535353;
+}
+
+.vision-button-1{
+    border: 2px ;
+    background-color: #5490F5;
+    color: whitesmoke;
+    padding: 10px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.vision-button-2{
+    border: 2px ;
+    background-color: #09A15C;
+    color: whitesmoke;
+    padding: 10px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.vision-button-3{
+    border: 2px ;
+    background-color: #FFC239;
+    color: whitesmoke;
+    padding: 10px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.vision-card-1{
+    background-color: #d5e1f5;
+    padding: 20px;
+    border-radius: 16px;
+     flex-direction: column;
+    gap: 25px;
+}
+.vision-card-2{
+    background-color: #c6e4d6;
+    padding: 20px;
+    border-radius: 16px;
+     flex-direction: column;
+    gap: 25px;
+}
+.vision-card-3{
+    background-color: #F7EBCF;
+    padding: 20px;
+    border-radius: 16px;
+     flex-direction: column;
+    gap: 25px;
+}
+/* dr yunus sort section */
+.dr-yunus{
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    border: 1px solid grey;
+}
+.dr-yunus h2{
+    font-size: 12px;
+    line-height: 24px;
+    color: #3e3e3e;
+}
+.dr-yunus h3{
+    font-size: 20px;
+    color: #0E0E0E;
+    font-weight: 500;
+}
+
+/* recent section start */
+.Recent-News-parents h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.Recent-News-parents p{
+    font-size: 12px;
+    line-height: 24px;
+    color: #535353;
+    margin-bottom: 12px;
+
+}
+
+.recent-banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 30px;
+    gap: 30px;
+    background-color: #ffffff;
+    border-radius: 24px;
+}
+.recent-banner h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.earth-img img{
+    border-radius: 24px;
+    width: 300px;
+    height: 250px;
+}
